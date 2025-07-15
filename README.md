@@ -36,4 +36,12 @@ A Django-based web application for creating, managing, and prioritizing announce
 ---
 
 ## 📁 Project Structure
-
+├── Project/ # Django project settings folder
+│ ├── settings.py
+│ ├── urls.py
+│ └── ...
+├── core/ # Your main Django app (views, models, etc.)
+├── templates/ # HTML templates
+├── staticfiles/ # Collected static files
+├── manage.py
+└── requirements.txt
